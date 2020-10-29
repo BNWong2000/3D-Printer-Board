@@ -736,46 +736,9 @@ F 3 "~" H 9700 3900 50  0001 C CNN
 	1    9700 3900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9250 3900 9400 3900
 Connection ~ 9250 3900
-$Comp
-L power:+5V #PWR038
-U 1 1 5FBBF8B1
-P 10100 3850
-F 0 "#PWR038" H 10100 3700 50  0001 C CNN
-F 1 "+5V" H 10115 4023 50  0000 C CNN
-F 2 "" H 10100 3850 50  0001 C CNN
-F 3 "" H 10100 3850 50  0001 C CNN
-	1    10100 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10100 3850 10100 3900
 Wire Wire Line
 	10100 3900 9850 3900
-$Comp
-L Device:D_Schottky D6
-U 1 1 5FBC1E83
-P 9050 3650
-F 0 "D6" H 9050 3433 50  0000 C CNN
-F 1 "D_Schottky" H 9050 3524 50  0000 C CNN
-F 2 "" H 9050 3650 50  0001 C CNN
-F 3 "~" H 9050 3650 50  0001 C CNN
-	1    9050 3650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9200 3650 9400 3650
-Wire Wire Line
-	9400 3650 9400 3900
-Connection ~ 9400 3900
-Wire Wire Line
-	9400 3900 9550 3900
-Text GLabel 8700 3650 0    50   Input ~ 0
-5V_USB
-Wire Wire Line
-	8700 3650 8900 3650
 $Comp
 L power:+5V #PWR032
 U 1 1 5FBC7006
@@ -1286,4 +1249,46 @@ Wire Wire Line
 Wire Wire Line
 	9750 1100 9750 1000
 Connection ~ 9450 1100
+Text GLabel 10100 3900 2    50   Input ~ 0
+5V_INT
+$Comp
+L power:+5V #PWR?
+U 1 1 5FA47275
+P 10350 2950
+F 0 "#PWR?" H 10350 2800 50  0001 C CNN
+F 1 "+5V" H 10365 3123 50  0000 C CNN
+F 2 "" H 10350 2950 50  0001 C CNN
+F 3 "" H 10350 2950 50  0001 C CNN
+	1    10350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_3_Open JP?
+U 1 1 5FA47DE8
+P 9950 3050
+F 0 "JP?" V 9996 3137 50  0000 L CNN
+F 1 "Jumper_3_Open" V 9905 3137 50  0000 L CNN
+F 2 "" H 9950 3050 50  0001 C CNN
+F 3 "~" H 9950 3050 50  0001 C CNN
+	1    9950 3050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9850 3450 0    50   Input ~ 0
+5V_USB
+Text GLabel 9850 2700 0    50   Input ~ 0
+5V_INT
+Wire Wire Line
+	9850 3450 9950 3450
+Wire Wire Line
+	9950 3450 9950 3300
+Wire Wire Line
+	9950 2800 9950 2700
+Wire Wire Line
+	9950 2700 9850 2700
+Wire Wire Line
+	10100 3050 10350 3050
+Wire Wire Line
+	10350 3050 10350 2950
+Wire Wire Line
+	9250 3900 9550 3900
 $EndSCHEMATC
