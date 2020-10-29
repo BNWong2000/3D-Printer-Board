@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name TMC2209)(type Legacy)(uri ${KIPRJMOD}/TMC2209.lib)(options "")(descr ""))
   (lib (name "Power and Buck Converters")(type Legacy)(uri "${KIPRJMOD}/Power and Buck Converters.lib")(options "")(descr ""))
+  (lib (name "MOSFET Drivers")(type Legacy)(uri "${KIPRJMOD}/MOSFET Drivers.lib")(options "")(descr ""))
 )
