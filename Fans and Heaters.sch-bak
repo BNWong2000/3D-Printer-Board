@@ -2769,4 +2769,6 @@ Text GLabel 5450 7550 0    50   Input ~ 0
 FAN4_BUFF
 Text GLabel 7600 7550 0    50   Input ~ 0
 FAN5_BUFF
+Text Notes 15050 2550 2    50   ~ 0
+Add fusing to heater outputs?\n
 $EndSCHEMATC
