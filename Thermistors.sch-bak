@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 7 9
 Title ""
 Date "2020-10-23"
 Rev ""
@@ -13,4 +13,127 @@ Comment2 "creativecommons.org/licenses/by/4.0"
 Comment3 "License: CC BY 4.0"
 Comment4 "Author: Branden Wong (AKA BNWong2000 [github], TKDonuts [Discord])"
 $EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5F9B4E21
+P 4200 1850
+F 0 "J?" H 4280 1842 50  0000 L CNN
+F 1 "Conn_01x02" H 4280 1751 50  0000 L CNN
+F 2 "" H 4200 1850 50  0001 C CNN
+F 3 "~" H 4200 1850 50  0001 C CNN
+	1    4200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5F9B5639
+P 3600 1650
+F 0 "R?" V 3650 1700 39  0000 L CNN
+F 1 "4.7k" V 3650 1500 39  0000 L CNN
+F 2 "" H 3600 1650 50  0001 C CNN
+F 3 "~" H 3600 1650 50  0001 C CNN
+	1    3600 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F9B5A42
+P 3500 2000
+F 0 "C?" V 3550 2050 39  0000 L CNN
+F 1 "2.2uF" V 3550 1800 39  0000 L CNN
+F 2 "" H 3500 2000 50  0001 C CNN
+F 3 "~" H 3500 2000 50  0001 C CNN
+	1    3500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5F9C1043
+P 3600 1450
+F 0 "#PWR?" H 3600 1300 50  0001 C CNN
+F 1 "+3.3VA" H 3615 1623 50  0000 C CNN
+F 2 "" H 3600 1450 50  0001 C CNN
+F 3 "" H 3600 1450 50  0001 C CNN
+	1    3600 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F9C1774
+P 3850 2200
+F 0 "#PWR?" H 3850 1950 50  0001 C CNN
+F 1 "GND" H 3855 2027 50  0000 C CNN
+F 2 "" H 3850 2200 50  0001 C CNN
+F 3 "" H 3850 2200 50  0001 C CNN
+	1    3850 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1950 3850 1950
+Wire Wire Line
+	3850 1950 3850 2150
+Wire Wire Line
+	3500 2150 3850 2150
+Connection ~ 3850 2150
+Wire Wire Line
+	3850 2150 3850 2200
+Wire Wire Line
+	3500 2150 3500 2100
+Wire Wire Line
+	4000 1850 3600 1850
+Wire Wire Line
+	3500 1850 3500 1900
+$Comp
+L Device:D_Schottky_Small D?
+U 1 1 5F9C32FA
+P 3300 1650
+F 0 "D?" H 3150 1700 39  0000 L CNN
+F 1 "S_D" H 3350 1700 39  0000 L CNN
+F 2 "" V 3300 1650 50  0001 C CNN
+F 3 "~" V 3300 1650 50  0001 C CNN
+	1    3300 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 1850 3600 1750
+Connection ~ 3600 1850
+Wire Wire Line
+	3600 1850 3500 1850
+Wire Wire Line
+	3600 1450 3600 1500
+Connection ~ 3500 1850
+Connection ~ 3600 1500
+Wire Wire Line
+	3600 1500 3600 1550
+Wire Wire Line
+	3300 1500 3300 1550
+Wire Wire Line
+	3300 1500 3600 1500
+Wire Wire Line
+	3300 1850 3300 1750
+Wire Wire Line
+	3300 1850 3500 1850
+$Comp
+L Device:D_Schottky_Small D?
+U 1 1 5F9C583F
+P 3300 2000
+F 0 "D?" H 3150 2050 39  0000 L CNN
+F 1 "S_D" H 3350 2050 39  0000 L CNN
+F 2 "" V 3300 2000 50  0001 C CNN
+F 3 "~" V 3300 2000 50  0001 C CNN
+	1    3300 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 2150 3300 2150
+Wire Wire Line
+	3300 2150 3300 2100
+Connection ~ 3500 2150
+Wire Wire Line
+	3300 1900 3300 1850
+Connection ~ 3300 1850
+Text GLabel 3100 1850 0    50   Input ~ 0
+THERM0
+Wire Wire Line
+	3100 1850 3300 1850
 $EndSCHEMATC
