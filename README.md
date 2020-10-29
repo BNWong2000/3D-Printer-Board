@@ -4,9 +4,9 @@ A custom, 3D printer controller, intended to run Klipper. All pcb source files w
 #### Features:
 * STM32F407IGT6 32 bit MCU
 * 9 Silent Stepper Drivers (Trinamic TMC 2209 with UART control)
-* 6 Fan output FETs
+* 8 Fan output FETs
    * Selectable Voltage for each fan using jumpers. (24V, 12V or 5v)
-* 7 Heater output FETs (including 1 high power FET for heated beds)
+* 8 Heater output FETs (including 1 high power FET for heated beds and 1 high power FET for heated chamber)
 * High power step down converter to 5v (max 5A)
    * This is enough to power the raspberry pi (which only needs 3A at 5v) and several fans without an external power supply
 * 12v step down converter for other peripherals.
