@@ -464,19 +464,8 @@ F 3 "~" H 1600 1800 50  0001 C CNN
 $EndComp
 Text GLabel 1450 1800 0    50   Input ~ 0
 X_STOP
-Text GLabel 1450 1900 0    50   Input ~ 0
-X_DIAG
-Wire Wire Line
-	1450 1900 1850 1900
-Wire Wire Line
-	1850 1900 1850 1800
-Wire Wire Line
-	1850 1800 2000 1800
 Wire Wire Line
 	1450 1800 1500 1800
-Wire Wire Line
-	1700 1800 1850 1800
-Connection ~ 1850 1800
 Text GLabel 5050 1900 2    50   Input ~ 0
 X_OB1
 Text GLabel 5050 1800 2    50   Input ~ 0
@@ -1056,16 +1045,7 @@ F 3 "~" H 6950 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 1900 7200 1900
-Wire Wire Line
-	7200 1900 7200 1800
-Wire Wire Line
-	7200 1800 7350 1800
-Wire Wire Line
 	6800 1800 6850 1800
-Wire Wire Line
-	7050 1800 7200 1800
-Connection ~ 7200 1800
 $Comp
 L Device:C_Small C102
 U 1 1 5FAE5D68
@@ -1629,16 +1609,7 @@ F 3 "~" H 1550 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 4850 1800 4850
-Wire Wire Line
-	1800 4850 1800 4750
-Wire Wire Line
-	1800 4750 1950 4750
-Wire Wire Line
 	1400 4750 1450 4750
-Wire Wire Line
-	1650 4750 1800 4750
-Connection ~ 1800 4750
 $Comp
 L Device:C_Small C74
 U 1 1 5FB05CBB
@@ -2191,16 +2162,7 @@ F 3 "~" H 6950 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 4850 7200 4850
-Wire Wire Line
-	7200 4850 7200 4750
-Wire Wire Line
-	7200 4750 7350 4750
-Wire Wire Line
 	6800 4750 6850 4750
-Wire Wire Line
-	7050 4750 7200 4750
-Connection ~ 7200 4750
 $Comp
 L Device:C_Small C103
 U 1 1 5FB41E15
@@ -2330,8 +2292,6 @@ Text GLabel 6800 1650 0    50   Input ~ 0
 Y_DIR
 Text GLabel 6800 1800 0    50   Input ~ 0
 Y_STOP
-Text GLabel 6800 1900 0    50   Input ~ 0
-Y_DIAG
 Text GLabel 6700 2450 0    50   Input ~ 0
 Y_UART
 Text GLabel 10400 2100 2    50   Input ~ 0
@@ -2374,8 +2334,6 @@ Text GLabel 1400 4600 0    50   Input ~ 0
 Z_DIR
 Text GLabel 1400 4750 0    50   Input ~ 0
 Z_STOP
-Text GLabel 1400 4850 0    50   Input ~ 0
-Z_DIAG
 $Comp
 L Jumper:SolderJumper_3_Open JP7
 U 1 1 5FB81295
@@ -2583,8 +2541,6 @@ Text GLabel 6800 4600 0    50   Input ~ 0
 E0_DIR
 Text GLabel 6800 4750 0    50   Input ~ 0
 E0_STOP
-Text GLabel 6800 4850 0    50   Input ~ 0
-E0_DIAG
 Text GLabel 10400 4750 2    50   Input ~ 0
 E0_OB2
 Text GLabel 10400 4850 2    50   Input ~ 0
@@ -2605,4 +2561,32 @@ Text GLabel 6700 5400 0    50   Input ~ 0
 E0_UART
 Text GLabel 1300 5400 0    50   Input ~ 0
 Z_UART
+NoConn ~ 2000 1900
+NoConn ~ 2000 2050
+NoConn ~ 2000 2150
+NoConn ~ 2000 2400
+NoConn ~ 7350 1900
+NoConn ~ 7350 2050
+NoConn ~ 7350 2150
+NoConn ~ 7350 2400
+NoConn ~ 1950 4850
+NoConn ~ 1950 5000
+NoConn ~ 1950 5100
+NoConn ~ 1950 5350
+NoConn ~ 7350 4850
+NoConn ~ 7350 5000
+NoConn ~ 7350 5100
+NoConn ~ 7350 5350
+NoConn ~ 8550 5500
+NoConn ~ 3150 5500
+NoConn ~ 3200 2550
+NoConn ~ 8550 2550
+Wire Wire Line
+	1650 4750 1950 4750
+Wire Wire Line
+	1700 1800 2000 1800
+Wire Wire Line
+	7050 1800 7350 1800
+Wire Wire Line
+	7050 4750 7350 4750
 $EndSCHEMATC

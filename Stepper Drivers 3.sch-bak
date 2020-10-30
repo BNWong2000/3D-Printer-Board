@@ -516,16 +516,7 @@ F 3 "~" H 4400 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 3600 4650 3600
-Wire Wire Line
-	4650 3600 4650 3500
-Wire Wire Line
-	4650 3500 4800 3500
-Wire Wire Line
 	4250 3500 4300 3500
-Wire Wire Line
-	4500 3500 4650 3500
-Connection ~ 4650 3500
 $Comp
 L Device:C_Small C?
 U 1 1 5FFDE425
@@ -759,8 +750,13 @@ Text GLabel 4250 3350 0    50   Input ~ 0
 E5_DIR
 Text GLabel 4250 3500 0    50   Input ~ 0
 E5_STOP
-Text GLabel 4250 3600 0    50   Input ~ 0
-E5_DIAG
 Text GLabel 4150 4150 0    50   Input ~ 0
 E5_UART
+NoConn ~ 4800 3600
+NoConn ~ 4800 3750
+NoConn ~ 4800 3850
+NoConn ~ 4800 4100
+NoConn ~ 6000 4250
+Wire Wire Line
+	4500 3500 4800 3500
 $EndSCHEMATC
