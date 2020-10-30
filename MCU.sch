@@ -1516,7 +1516,7 @@ LCD_SD_SS
 Text GLabel 13400 5200 2    50   Input ~ 0
 LCD_SD_MOSI
 Text GLabel 13400 5300 2    50   Input ~ 0
-LCD_SD_RESET
+RESET
 Wire Wire Line
 	12500 3900 12700 3900
 Wire Wire Line
@@ -1779,9 +1779,9 @@ Wire Wire Line
 Wire Wire Line
 	14400 7200 14100 7200
 Text GLabel 14250 7100 0    50   Input ~ 0
-PA1
+PB11
 Text GLabel 14250 7300 0    50   Input ~ 0
-PA2
+PH11
 Wire Wire Line
 	14250 7300 14400 7300
 Wire Wire Line
@@ -2102,4 +2102,501 @@ Connection ~ 12250 9300
 Wire Wire Line
 	12400 9400 12600 9400
 Connection ~ 12400 9400
+Wire Wire Line
+	9450 4750 9350 4750
+Wire Wire Line
+	9450 4850 9350 4850
+Wire Wire Line
+	9450 4950 9350 4950
+Wire Wire Line
+	9450 5050 9350 5050
+Wire Wire Line
+	9450 5150 9350 5150
+Wire Wire Line
+	9450 5250 9350 5250
+Wire Wire Line
+	9450 5350 9350 5350
+Wire Wire Line
+	9450 5450 9350 5450
+Wire Wire Line
+	9450 5550 9350 5550
+Wire Wire Line
+	9450 5650 9350 5650
+Wire Wire Line
+	9450 5750 9350 5750
+Wire Wire Line
+	9450 5850 9350 5850
+Wire Wire Line
+	9450 5950 9350 5950
+Wire Wire Line
+	9450 6050 9350 6050
+Wire Wire Line
+	9450 6150 9350 6150
+Wire Wire Line
+	9450 6250 9350 6250
+Wire Wire Line
+	9450 6450 9350 6450
+Wire Wire Line
+	9450 6550 9350 6550
+Wire Wire Line
+	9450 6650 9350 6650
+Wire Wire Line
+	9450 6750 9350 6750
+Wire Wire Line
+	9450 6850 9350 6850
+Wire Wire Line
+	9450 6950 9350 6950
+Wire Wire Line
+	9450 7050 9350 7050
+Wire Wire Line
+	9450 7150 9350 7150
+Wire Wire Line
+	9450 7250 9350 7250
+Wire Wire Line
+	9450 7350 9350 7350
+Wire Wire Line
+	9450 7450 9350 7450
+Wire Wire Line
+	9450 7550 9350 7550
+Wire Wire Line
+	9450 7650 9350 7650
+Wire Wire Line
+	9450 7750 9350 7750
+Wire Wire Line
+	9450 7850 9350 7850
+Wire Wire Line
+	9450 7950 9350 7950
+Wire Wire Line
+	9450 8150 9350 8150
+Wire Wire Line
+	9450 8250 9350 8250
+Wire Wire Line
+	9450 8350 9350 8350
+Wire Wire Line
+	9450 8450 9350 8450
+Wire Wire Line
+	9450 8550 9350 8550
+Wire Wire Line
+	9450 8650 9350 8650
+Wire Wire Line
+	9450 8750 9350 8750
+Wire Wire Line
+	9450 8850 9350 8850
+Wire Wire Line
+	9450 8950 9350 8950
+Wire Wire Line
+	9450 9050 9350 9050
+Wire Wire Line
+	9450 9150 9350 9150
+Wire Wire Line
+	9450 9250 9350 9250
+Wire Wire Line
+	9450 9350 9350 9350
+Wire Wire Line
+	9450 9450 9350 9450
+Wire Wire Line
+	9450 9550 9350 9550
+Wire Wire Line
+	9450 9650 9350 9650
+Wire Wire Line
+	6450 8150 6350 8150
+Wire Wire Line
+	6450 8250 6350 8250
+Wire Wire Line
+	6450 8350 6350 8350
+Wire Wire Line
+	6450 8450 6350 8450
+Wire Wire Line
+	6450 8550 6350 8550
+Wire Wire Line
+	6450 8650 6350 8650
+Wire Wire Line
+	6450 8750 6350 8750
+Wire Wire Line
+	6450 8850 6350 8850
+Wire Wire Line
+	6450 8950 6350 8950
+Wire Wire Line
+	6450 9050 6350 9050
+Wire Wire Line
+	6450 9150 6350 9150
+Wire Wire Line
+	6450 9250 6350 9250
+Wire Wire Line
+	6450 9350 6350 9350
+Wire Wire Line
+	6450 9450 6350 9450
+Wire Wire Line
+	6450 9550 6350 9550
+Wire Wire Line
+	6450 9650 6350 9650
+Wire Wire Line
+	6450 6450 6350 6450
+Wire Wire Line
+	6450 6550 6350 6550
+Wire Wire Line
+	6450 6650 6350 6650
+Wire Wire Line
+	6450 6750 6350 6750
+Wire Wire Line
+	6450 6850 6350 6850
+Wire Wire Line
+	6450 6950 6350 6950
+Wire Wire Line
+	6450 7050 6350 7050
+Wire Wire Line
+	6450 7150 6350 7150
+Wire Wire Line
+	6450 7250 6350 7250
+Wire Wire Line
+	6450 7350 6350 7350
+Wire Wire Line
+	6450 7450 6350 7450
+Wire Wire Line
+	6450 7550 6350 7550
+Wire Wire Line
+	6450 7650 6350 7650
+Wire Wire Line
+	6450 7750 6350 7750
+Wire Wire Line
+	6450 7850 6350 7850
+Wire Wire Line
+	6450 7950 6350 7950
+Wire Wire Line
+	6450 3450 6350 3450
+Wire Wire Line
+	6450 3550 6350 3550
+Wire Wire Line
+	6450 3650 6350 3650
+Wire Wire Line
+	6450 3750 6350 3750
+Wire Wire Line
+	6450 3850 6350 3850
+Wire Wire Line
+	6450 3950 6350 3950
+Wire Wire Line
+	6450 4050 6350 4050
+Wire Wire Line
+	6450 4150 6350 4150
+Wire Wire Line
+	6450 4250 6350 4250
+Wire Wire Line
+	6450 4350 6350 4350
+Wire Wire Line
+	6450 4450 6350 4450
+Wire Wire Line
+	6450 4550 6350 4550
+Wire Wire Line
+	6450 4950 6350 4950
+Wire Wire Line
+	6450 5050 6350 5050
+Wire Wire Line
+	6450 5150 6350 5150
+Wire Wire Line
+	6450 5250 6350 5250
+Wire Wire Line
+	6450 5350 6350 5350
+Wire Wire Line
+	6450 5450 6350 5450
+Wire Wire Line
+	6450 5550 6350 5550
+Wire Wire Line
+	6450 5650 6350 5650
+Wire Wire Line
+	6450 5750 6350 5750
+Wire Wire Line
+	6450 5850 6350 5850
+Wire Wire Line
+	6450 5950 6350 5950
+Wire Wire Line
+	6450 6050 6350 6050
+Wire Wire Line
+	6450 6150 6350 6150
+Wire Wire Line
+	6450 6250 6350 6250
+Wire Wire Line
+	9450 3050 9350 3050
+Wire Wire Line
+	9450 3150 9350 3150
+Wire Wire Line
+	9450 3350 9350 3350
+Wire Wire Line
+	9450 3450 9350 3450
+Wire Wire Line
+	9450 3550 9350 3550
+Wire Wire Line
+	9450 3650 9350 3650
+Wire Wire Line
+	9450 3750 9350 3750
+Wire Wire Line
+	9450 3850 9350 3850
+Wire Wire Line
+	9450 3950 9350 3950
+Wire Wire Line
+	9450 4050 9350 4050
+Wire Wire Line
+	9450 4150 9350 4150
+Wire Wire Line
+	9450 4250 9350 4250
+Wire Wire Line
+	9450 4350 9350 4350
+Wire Wire Line
+	9450 4450 9350 4450
+Wire Wire Line
+	9450 4550 9350 4550
+Wire Wire Line
+	9450 1350 9350 1350
+Wire Wire Line
+	9450 1450 9350 1450
+Wire Wire Line
+	9450 1550 9350 1550
+Wire Wire Line
+	9450 1650 9350 1650
+Wire Wire Line
+	9450 1750 9350 1750
+Wire Wire Line
+	9450 1850 9350 1850
+Wire Wire Line
+	9450 1950 9350 1950
+Wire Wire Line
+	9450 2050 9350 2050
+Wire Wire Line
+	9450 2150 9350 2150
+Wire Wire Line
+	9450 2250 9350 2250
+Wire Wire Line
+	9450 2350 9350 2350
+Wire Wire Line
+	9450 2450 9350 2450
+Wire Wire Line
+	9450 2550 9350 2550
+Wire Wire Line
+	9450 2650 9350 2650
+Wire Wire Line
+	9450 2750 9350 2750
+Wire Wire Line
+	9450 2850 9350 2850
+Text GLabel 9450 6250 2    50   Input ~ 0
+X_STEP
+Text GLabel 9450 6150 2    50   Input ~ 0
+X_UART
+Text GLabel 6350 8150 0    50   Input ~ 0
+X_DIR
+Text GLabel 6350 8250 0    50   Input ~ 0
+X_EN
+Text GLabel 9450 8350 2    50   Input ~ 0
+Y_DIR
+Text GLabel 9450 8450 2    50   Input ~ 0
+Y_STEP
+Text GLabel 9450 8550 2    50   Input ~ 0
+Y_EN
+Text GLabel 9450 8250 2    50   Input ~ 0
+Y_UART
+Text GLabel 6350 8350 0    50   Input ~ 0
+X_STOP
+Text GLabel 9450 6050 2    50   Input ~ 0
+Y_STOP
+Text GLabel 9450 3850 2    50   Input ~ 0
+Z_STEP
+Text GLabel 9450 3750 2    50   Input ~ 0
+Z_DIR
+Text GLabel 9450 3950 2    50   Input ~ 0
+Z_EN
+Text GLabel 9450 3550 2    50   Input ~ 0
+Z_UART
+Text GLabel 9450 8150 2    50   Input ~ 0
+Z_STOP
+Text GLabel 6350 7450 0    50   Input ~ 0
+E0_UART
+Text GLabel 6350 7550 0    50   Input ~ 0
+E0_DIR
+Text GLabel 6350 7750 0    50   Input ~ 0
+E0_EN
+Text GLabel 6350 7850 0    50   Input ~ 0
+E0_STOP
+Text GLabel 6350 7650 0    50   Input ~ 0
+E0_STEP
+Text GLabel 6350 7350 0    50   Input ~ 0
+E1_STOP
+Text GLabel 9450 6850 2    50   Input ~ 0
+E1_UART
+Text GLabel 9450 6950 2    50   Input ~ 0
+E1_DIR
+Text GLabel 9450 7050 2    50   Input ~ 0
+E1_STEP
+Text GLabel 9450 7150 2    50   Input ~ 0
+E1_EN
+Text GLabel 9450 6450 2    50   Input ~ 0
+E2_DIR
+Text GLabel 9450 6550 2    50   Input ~ 0
+E2_STEP
+Text GLabel 9450 6650 2    50   Input ~ 0
+E2_EN
+Text GLabel 9450 5950 2    50   Input ~ 0
+E2_UART
+Text GLabel 9450 6750 2    50   Input ~ 0
+E2_STOP
+Text GLabel 6350 6750 0    50   Input ~ 0
+E3_DIR
+Text GLabel 6350 6850 0    50   Input ~ 0
+E3_UART
+Text GLabel 6350 8450 0    50   Input ~ 0
+E3_STEP
+Text GLabel 6350 9350 0    50   Input ~ 0
+E3_STOP
+Text GLabel 6350 8950 0    50   Input ~ 0
+E3_EN
+Text GLabel 6350 6650 0    50   Input ~ 0
+E4_EN
+Text GLabel 9450 7850 2    50   Input ~ 0
+E4_STEP
+Text GLabel 9450 7550 2    50   Input ~ 0
+E4_DIR
+Text GLabel 6350 9150 0    50   Input ~ 0
+E4_STOP
+Text GLabel 9450 9650 2    50   Input ~ 0
+E4_UART
+Text GLabel 6350 8750 0    50   Input ~ 0
+E5_STOP
+Text GLabel 9450 8850 2    50   Input ~ 0
+E5_UART
+Text GLabel 6350 9550 0    50   Input ~ 0
+E5_EN
+Text GLabel 9450 9150 2    50   Input ~ 0
+E5_DIR
+Text GLabel 9450 9350 2    50   Input ~ 0
+E5_STEP
+Text GLabel 9450 4850 2    50   Input ~ 0
+THERM0
+Text GLabel 9450 4950 2    50   Input ~ 0
+THERM1
+Text GLabel 9450 5050 2    50   Input ~ 0
+THERM2
+Text GLabel 9450 4750 2    50   Input ~ 0
+BED_THERM
+Text GLabel 9450 1650 2    50   Input ~ 0
+THERM3
+Text GLabel 6350 8850 0    50   Input ~ 0
+THERM4
+Text GLabel 6350 8650 0    50   Input ~ 0
+THERM5
+Text GLabel 6350 9050 0    50   Input ~ 0
+CHAMBER_THERM
+Text GLabel 9450 8650 2    50   Input ~ 0
+FAN0
+Text GLabel 9450 8750 2    50   Input ~ 0
+FAN1
+Text GLabel 9450 5550 2    50   Input ~ 0
+FAN2
+Text GLabel 9450 9550 2    50   Input ~ 0
+FAN3
+Text GLabel 9450 9250 2    50   Input ~ 0
+FAN4
+Text GLabel 9450 9050 2    50   Input ~ 0
+FAN5
+Text GLabel 9450 5650 2    50   Input ~ 0
+FAN6
+Text GLabel 6350 3950 0    50   Input ~ 0
+FAN7
+Text GLabel 9450 1550 2    50   Input ~ 0
+BED_HEATER
+Text GLabel 9450 1450 2    50   Input ~ 0
+HEATER1
+Text GLabel 9450 3150 2    50   Input ~ 0
+HEATER0
+Text GLabel 9450 3050 2    50   Input ~ 0
+HEATER2
+Text GLabel 9450 7950 2    50   Input ~ 0
+HEATER3
+Text GLabel 9450 7750 2    50   Input ~ 0
+HEATER4
+Text GLabel 9450 7650 2    50   Input ~ 0
+HEATER5
+Text GLabel 9450 9450 2    50   Input ~ 0
+CHAMBER_HEATER
+Text GLabel 9450 2450 2    50   Input ~ 0
+USB_DM
+Text GLabel 9450 2550 2    50   Input ~ 0
+USB_DP
+$Comp
+L power:GND #PWR?
+U 1 1 60863758
+P 1500 6450
+F 0 "#PWR?" H 1500 6200 50  0001 C CNN
+F 1 "GND" H 1505 6277 50  0000 C CNN
+F 2 "" H 1500 6450 50  0001 C CNN
+F 3 "" H 1500 6450 50  0001 C CNN
+	1    1500 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 6450 1650 6450
+Text GLabel 9450 1750 2    50   Input ~ 0
+SD_CS
+Text GLabel 9450 1850 2    50   Input ~ 0
+SD_SCK
+Text GLabel 9450 1950 2    50   Input ~ 0
+SD_MISO
+Text GLabel 9450 2050 2    50   Input ~ 0
+SD_MOSI
+Text GLabel 9450 5850 2    50   Input ~ 0
+LCD_BEEP
+Text GLabel 9450 2850 2    50   Input ~ 0
+BTN_ENC
+Text GLabel 9450 2150 2    50   Input ~ 0
+LCD_RS
+Text GLabel 6350 7150 0    50   Input ~ 0
+LCD_D5
+Text GLabel 6350 6950 0    50   Input ~ 0
+LCD_D7
+Text GLabel 6350 7050 0    50   Input ~ 0
+LCD_D6
+Text GLabel 6350 7250 0    50   Input ~ 0
+LCD_D4
+Text GLabel 9450 5750 2    50   Input ~ 0
+LCD_EN
+Text GLabel 9450 4550 2    50   Input ~ 0
+LCD_SD_MOSI
+Text GLabel 9450 4250 2    50   Input ~ 0
+LCD_SD_SS
+Text GLabel 9450 4350 2    50   Input ~ 0
+LCD_SD_SCK
+Text GLabel 9450 4050 2    50   Input ~ 0
+LCD_SD_CD
+Text GLabel 9450 4450 2    50   Input ~ 0
+LCD_SD_MISO
+Text GLabel 9450 7450 2    50   Input ~ 0
+BTN_EN1
+Text GLabel 6350 5750 0    50   Input ~ 0
+BTN_EN2
+Text GLabel 6350 5150 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 6350 5250 0    50   Input ~ 0
+I2C_SDA
+Text GLabel 9450 2650 2    50   Input ~ 0
+SWDIO
+Text GLabel 9450 2750 2    50   Input ~ 0
+SWCLK
+Text GLabel 9450 3450 2    50   Input ~ 0
+RST
+Text GLabel 6350 5550 0    50   Input ~ 0
+I2C_PERIPH_SDA
+Text GLabel 6350 5450 0    50   Input ~ 0
+I2C_PERIPH_SCL
+Text GLabel 6350 5850 0    50   Input ~ 0
+PH11
+Text GLabel 9450 4150 2    50   Input ~ 0
+PB11
+Text GLabel 9450 7250 2    50   Input ~ 0
+TX
+Text GLabel 9450 7350 2    50   Input ~ 0
+RX
+Text GLabel 6350 3450 0    50   Input ~ 0
+CS
+Text GLabel 6350 3550 0    50   Input ~ 0
+SCK
+Text GLabel 6350 3650 0    50   Input ~ 0
+MISO
+Text GLabel 6350 3750 0    50   Input ~ 0
+MOSI
 $EndSCHEMATC
