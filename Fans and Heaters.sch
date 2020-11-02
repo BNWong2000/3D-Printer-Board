@@ -1424,8 +1424,6 @@ Wire Wire Line
 	12650 3400 12650 3350
 Wire Wire Line
 	12050 3150 11950 3150
-Text GLabel 10250 2200 0    50   Input ~ 0
-VIN_FUSED
 $Comp
 L Device:LED_Small D28
 U 1 1 5FB29D7C
@@ -2745,4 +2743,6 @@ F 3 "" H 2900 3300 50  0001 C CNN
 $EndComp
 Text Notes 2350 2700 0    50   ~ 0
 Specific model - 74HC245D\nuses SO20 package\n
+Text GLabel 10250 2200 0    50   Input ~ 0
+VIN_BED_FUSED
 $EndSCHEMATC

@@ -2816,4 +2816,100 @@ Text Notes 11350 8750 0    50   ~ 0
 M24C02\n
 Text Notes 11500 9700 0    50   ~ 0
 SO8N package\n
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5FB94599
+P 2450 9450
+F 0 "H1" H 2550 9499 50  0000 L CNN
+F 1 "m4" H 2550 9408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 2450 9450 50  0001 C CNN
+F 3 "~" H 2450 9450 50  0001 C CNN
+	1    2450 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0255
+U 1 1 5FB956F1
+P 2450 9600
+F 0 "#PWR0255" H 2450 9350 50  0001 C CNN
+F 1 "GND" H 2455 9427 50  0000 C CNN
+F 2 "" H 2450 9600 50  0001 C CNN
+F 3 "" H 2450 9600 50  0001 C CNN
+	1    2450 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 9600 2450 9550
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5FBE19F6
+P 2750 9450
+F 0 "H2" H 2850 9499 50  0000 L CNN
+F 1 "m4" H 2850 9408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 2750 9450 50  0001 C CNN
+F 3 "~" H 2750 9450 50  0001 C CNN
+	1    2750 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0288
+U 1 1 5FBE19FC
+P 2750 9600
+F 0 "#PWR0288" H 2750 9350 50  0001 C CNN
+F 1 "GND" H 2755 9427 50  0000 C CNN
+F 2 "" H 2750 9600 50  0001 C CNN
+F 3 "" H 2750 9600 50  0001 C CNN
+	1    2750 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 9600 2750 9550
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5FC2CD16
+P 3050 9450
+F 0 "H3" H 3150 9499 50  0000 L CNN
+F 1 "m4" H 3150 9408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 3050 9450 50  0001 C CNN
+F 3 "~" H 3050 9450 50  0001 C CNN
+	1    3050 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0289
+U 1 1 5FC2CD1C
+P 3050 9600
+F 0 "#PWR0289" H 3050 9350 50  0001 C CNN
+F 1 "GND" H 3055 9427 50  0000 C CNN
+F 2 "" H 3050 9600 50  0001 C CNN
+F 3 "" H 3050 9600 50  0001 C CNN
+	1    3050 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 9600 3050 9550
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5FC7847A
+P 3350 9450
+F 0 "H4" H 3450 9499 50  0000 L CNN
+F 1 "m4" H 3450 9408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 3350 9450 50  0001 C CNN
+F 3 "~" H 3350 9450 50  0001 C CNN
+	1    3350 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0290
+U 1 1 5FC78480
+P 3350 9600
+F 0 "#PWR0290" H 3350 9350 50  0001 C CNN
+F 1 "GND" H 3355 9427 50  0000 C CNN
+F 2 "" H 3350 9600 50  0001 C CNN
+F 3 "" H 3350 9600 50  0001 C CNN
+	1    3350 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 9600 3350 9550
 $EndSCHEMATC
