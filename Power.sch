@@ -972,16 +972,14 @@ $EndComp
 $Comp
 L Device:D_Schottky_ALT D4
 U 1 1 5FC97343
-P 7850 1400
-F 0 "D4" H 7850 1183 50  0000 C CNN
-F 1 "DB2W40300L" H 7850 1450 50  0000 C BNN
-F 2 "Diode_SMD:D_SOD-123F" H 7850 1400 50  0001 C CNN
-F 3 "~" H 7850 1400 50  0001 C CNN
-	1    7850 1400
-	-1   0    0    1   
+P 8100 1300
+F 0 "D4" H 8100 1083 50  0000 C CNN
+F 1 "DB2W40300L" H 8100 1350 50  0000 C BNN
+F 2 "Diode_SMD:D_SOD-123F" H 8100 1300 50  0001 C CNN
+F 3 "~" H 8100 1300 50  0001 C CNN
+	1    8100 1300
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7750 1400 7800 1400
 $Comp
 L Device:R_Small_US R8
 U 1 1 5FCA577B
@@ -1004,18 +1002,7 @@ F 3 "~" H 7850 1650 50  0001 C CNN
 	1    7850 1650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7800 1100 8100 1100
 Connection ~ 7800 1100
-Wire Wire Line
-	8000 1400 8100 1400
-Wire Wire Line
-	8100 1400 8100 1100
-Connection ~ 8100 1100
-Wire Wire Line
-	8100 1100 8300 1100
-Wire Wire Line
-	7300 1400 7700 1400
 Wire Wire Line
 	7650 1550 7750 1550
 Wire Wire Line
@@ -1031,10 +1018,6 @@ Wire Wire Line
 	8100 1550 7950 1550
 Wire Wire Line
 	8100 1550 8100 1650
-Wire Wire Line
-	8100 1400 8100 1550
-Connection ~ 8100 1400
-Connection ~ 8100 1550
 Wire Wire Line
 	7300 1600 7500 1600
 Wire Wire Line
@@ -1427,4 +1410,23 @@ F 3 "" H 7200 3450 50  0001 C CNN
 	1    6850 4000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7800 1100 8100 1100
+Wire Wire Line
+	8100 1550 8100 1500
+Connection ~ 8100 1550
+Wire Wire Line
+	8100 1150 8100 1100
+Connection ~ 8100 1100
+Wire Wire Line
+	8100 1100 8300 1100
+Wire Wire Line
+	7950 1400 7950 1500
+Wire Wire Line
+	7950 1500 8100 1500
+Wire Wire Line
+	7300 1400 7950 1400
+Connection ~ 8100 1500
+Wire Wire Line
+	8100 1500 8100 1450
 $EndSCHEMATC
