@@ -2512,7 +2512,7 @@ AR Path="/5F93253C/5FF75EB8" Ref="JP?"  Part="1"
 AR Path="/5FB57DE9/5FF75EB8" Ref="JP15"  Part="1" 
 F 0 "JP15" H 3350 3163 50  0000 C CNN
 F 1 "SPREAD_STEALTH" H 3200 3250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3350 3050 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3350 3050 50  0001 C CNN
 F 3 "~" H 3350 3050 50  0001 C CNN
 	1    3350 3050
 	-1   0    0    1   
@@ -2571,7 +2571,7 @@ AR Path="/5F93253C/5FF75ED4" Ref="JP?"  Part="1"
 AR Path="/5FB57DE9/5FF75ED4" Ref="JP14"  Part="1" 
 F 0 "JP14" H 3300 6113 50  0000 C CNN
 F 1 "SPREAD_STEALTH" H 3150 6200 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3300 6000 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3300 6000 50  0001 C CNN
 F 3 "~" H 3300 6000 50  0001 C CNN
 	1    3300 6000
 	-1   0    0    1   
@@ -2618,7 +2618,7 @@ AR Path="/5F93253C/5FF75EEA" Ref="JP?"  Part="1"
 AR Path="/5FB57DE9/5FF75EEA" Ref="JP18"  Part="1" 
 F 0 "JP18" H 8700 3163 50  0000 C CNN
 F 1 "SPREAD_STEALTH" H 8550 3250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8700 3050 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8700 3050 50  0001 C CNN
 F 3 "~" H 8700 3050 50  0001 C CNN
 	1    8700 3050
 	-1   0    0    1   
@@ -2712,7 +2712,7 @@ AR Path="/5F93253C/5FF75F16" Ref="JP?"  Part="1"
 AR Path="/5FB57DE9/5FF75F16" Ref="JP19"  Part="1" 
 F 0 "JP19" H 8700 6113 50  0000 C CNN
 F 1 "SPREAD_STEALTH" H 8550 6200 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8700 6000 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8700 6000 50  0001 C CNN
 F 3 "~" H 8700 6000 50  0001 C CNN
 	1    8700 6000
 	-1   0    0    1   

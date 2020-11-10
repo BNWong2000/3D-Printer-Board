@@ -717,7 +717,7 @@ AR Path="/5FB57DE9/5FFDE47F" Ref="JP?"  Part="1"
 AR Path="/5FB57E25/5FFDE47F" Ref="JP21"  Part="1" 
 F 0 "JP21" H 6100 4763 50  0000 C CNN
 F 1 "SPREAD_STEALTH" H 5950 4850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6100 4650 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6100 4650 50  0001 C CNN
 F 3 "~" H 6100 4650 50  0001 C CNN
 	1    6100 4650
 	-1   0    0    1   
